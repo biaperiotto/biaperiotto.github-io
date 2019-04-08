@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Roboto" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -111,20 +111,79 @@
 
                 <div class="collapse" id="collapseExample">
                     <div>
-                    <p>Minha formação profissional e pessoal</p>
+                        <p>Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal Minha formação profissional e pessoal </p>
                     </div>
                 </div>
-                <a data-toggle="collapse" href="#collapseExample"><div class="fas fa-angle-double-down rotate center"></div></a>
+                <a data-toggle="collapse" href="#collapseExample">
+                    <div class="fas fa-angle-double-down rotate"></div>
+                </a>
             </div>
         </div>
-        <div id="galeria" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+        <div id="galeria" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
             <h1>Galeria</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://lorempixel.com/1920/1080/abstract" alt="placeholder">
+                        <div class="card-body">
+                            <p class="card-text">Breve descrição sobre a obra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://lorempixel.com/1920/1080/abstract" alt="placeholder">
+                        <div class="card-body">
+                            <p class="card-text">Breve descrição sobre a obra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://lorempixel.com/1920/1080/abstract" alt="placeholder">
+                        <div class="card-body">
+                            <p class="card-text">Breve descrição sobre a obra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://lorempixel.com/1920/1080/abstract" alt="placeholder">
+                        <div class="card-body">
+                            <p class="card-text">Breve descrição sobre a obra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="contato" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-            <h1>Contato</h1>
+        <div id="contato" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+                <div class="text-center col-md-6">
+                    <div class="classWithPad">
+                        <h1>Minhas mídias</h1>
+                    </div>
+                </div>
+                <div class="text-center col-md-6">
+                    <div class="classWithPad contactf">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="emailform">E-mail</label>
+                                <input type="email" class="form-control" id="emailform" placeholder="">
+                                <label for="nameform">Nome</label>
+                                <input type="text" class="form-control" id="nameform" placeholder="">
+                                <label for="asssform">Assunto</label>
+                                <input type="text" class="form-control" id="asssform" placeholder="">
+                                <label for="msgform">Mensagem</label>
+                                <textarea class="form-control" id="msgform" rows="5"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+        <script src="scripts/jspure.js"></script>
     </div>
-    <script src="scripts/jspure.js"></script>
 </body>
 
 </html>
