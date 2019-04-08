@@ -80,7 +80,9 @@ h1 {
 .colicon {
     margin-top: 2rem;
 }
-
+.galeritem{
+    margin: 0.25rem;
+}
 .rotate {
     -moz-transition: all .1s linear;
     -webkit-transition: all .1s linear;
