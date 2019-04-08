@@ -7,6 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.cartasite{
+    margin: 5% auto 5% auto;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 p,
 label {
     font-family: 'Roboto', sans-serif
@@ -19,10 +26,6 @@ body {
 }
 
 .corpitcho {
-    margin: 5% auto 5% auto;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .carousel-item {
@@ -33,11 +36,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#home {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 h1 {
