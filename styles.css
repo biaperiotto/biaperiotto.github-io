@@ -7,15 +7,22 @@ html {
     scroll-behavior: smooth;
 }
 
+.carrosel{
+   text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdownbutton{
+    text-align: center;
+}
+
 .cartasite{
     margin: 5% auto 5% auto;
     background-color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 1.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-p,
-label {
+p,label {
     font-family: 'Roboto', sans-serif
 }
 
@@ -26,6 +33,7 @@ body {
 }
 
 .corpitcho {
+    padding: 0px;
 }
 
 .carousel-item {
@@ -46,9 +54,14 @@ h1 {
 .navbar-brand {
     font-size: 1.7rem;
 }
+@media (max-width: 992px){
+.nav {
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
 
 .nav {
-    background-color: rgba(255, 255, 255, 0);
     transition: 0.3s all;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5rem;
