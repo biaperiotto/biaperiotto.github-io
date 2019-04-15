@@ -9,6 +9,7 @@ html {
 
 .carrosel{
    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#2b2b2b
 }
 
 .dropdownbutton{
@@ -65,10 +66,7 @@ h1 {
     transition: 0.3s all;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5rem;
-}
-
-.changeColor {
-    background-color: rgba(255, 255, 255, 1) !important;
+        background-color:white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -95,9 +93,9 @@ h1 {
     margin: 0.25rem;
 }
 .rotate {
-    -moz-transition: all .1s linear;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
     color: #fe52de;
     font-size: 1.7rem;
 }
@@ -141,4 +139,42 @@ h1 {
     letter-spacing: 1px;
     border-radius: 0;
     margin-top: 10px;
+}
+
+#gtext{
+    margin-bottom: 2rem;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #008CBA;
+}
+
+.card-pin:hover .overlay {
+  opacity: .5;
+  transition: ease .3s;
+  background-color: #fc84ff;  
+  cursor: zoom-in;
+}
+
+
+.card-pin:hover .card-title {
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.2em;
 }
